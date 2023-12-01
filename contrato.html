@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de ProInvest Latinoamérica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Contrato de ProInvest Latinoamérica</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse voluptates consequuntur corrupti ratione, quis
+        debitis reprehenderit optio ab pariatur dicta quia vel incidunt architecto eum numquam magnam. Laboriosam,
+        error commodi.
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, iusto laudantium necessitatibus maiores
+        tenetur soluta, consequuntur cum voluptatibus quis accusantium provident, et sint hic sapiente explicabo
+        nisi omnis! Consequatur, facere.
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas veniam dolor provident totam animi
+        cumque iure quasi quidem, ratione quo porro placeat impedit fuga architecto delectus magnam dolorum! Ex?
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis. Laborum natus iusto sunt explicabo
+        perferendis nostrum tempora totam illo? Recusandae non unde quibusdam in velit similique qui iste sequi?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, praesentium dolor possimus voluptatem
+        asperiores repellendus et quidem totam harum quae nihil illo unde nam quo reiciendis tenetur ex ullam
+        voluptates.
+    </p>
+    <h3 class="texto-centrado">Firma del contrato</h3>
+
+    <div class="texto-centrado">
+        <img src="" alt="Firma del contrato" id="firma">
+    </div>
+    <script>
+        // Metemos aqui el JS para no cargar otro JS tan pequeño
+        // Observe como usamos el window.opener que es la ventana padre
+        if (window.opener) {
+            document.querySelector('#firma').src = window.opener.obtenerImagen();
+            window.print();
+        }
+    </script>
+</body>
+
+</html>
